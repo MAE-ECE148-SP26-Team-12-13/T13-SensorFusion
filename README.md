@@ -27,7 +27,11 @@ Full step-by-step guide: [shared/docs/PI5_LAUNCH_GUIDE.md](shared/docs/PI5_LAUNC
 
 **YOLO + cone detection (Jetson `launch.sh 6` equivalent):**
 ```bash
-FUSION_MODE=detection bash ~/sensorfusion_ws/shared/start_all_rpi5.sh 192.168.1.3
+# Example: MAE/ECE 148 Spring 2026 One Line launched all
+SENSORFUSION_DETECTION_BACKEND=cpu FUSION_MODE=detection bash ~/sensorfusion_ws/shared/start_all_rpi5.sh 192.168.1.3
 ```
 
-## Directory layout
+**To STOP ALL working nodes cleanly (recommended):
+```
+FUSION_MODE=detection bash ~/sensorfusion_ws/shared/stop_all_rpi5.sh 192.168.1.3
+```
