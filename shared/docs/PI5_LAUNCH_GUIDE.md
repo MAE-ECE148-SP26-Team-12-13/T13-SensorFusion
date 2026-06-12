@@ -294,12 +294,6 @@ Bus 003 Device 004: ID 03e7:2485 Intel Movidius MyriadX    ← this is the OAK-D
 | `0483:5740` | STMicro Virtual COM (often LiDAR-related serial) |
 | `2341:8036` | Arduino Leonardo |
 
-Verify camera health:
-
-```bash
-bash ~/sensorfusion_ws/shared/verify_camera.sh
-```
-
 Restart camera after plugging in USB:
 
 ```bash
