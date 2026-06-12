@@ -1,5 +1,8 @@
 # sensorfusion_ws — Sensor Fusion Workspace
 
+<img width="1918" height="832" alt="image" src="https://github.com/user-attachments/assets/8862df8f-a33e-4b5a-be05-50b64fe6a98d" />
+
+
 Unified workspace for the OAK-D Pro + Livox MID-360 sensor fusion pipeline.
 
 The workspace includes a CPU-only Raspberry Pi 5 path under `fusion/docker_rpi5`
@@ -31,7 +34,7 @@ Full step-by-step guide: [shared/docs/PI5_LAUNCH_GUIDE.md](shared/docs/PI5_LAUNC
 SENSORFUSION_DETECTION_BACKEND=cpu FUSION_MODE=detection bash ~/sensorfusion_ws/shared/start_all_rpi5.sh 192.168.1.3
 ```
 
-**To STOP ALL working nodes cleanly (recommended):
+**To STOP ALL working nodes cleanly (recommended):**
 ```
 FUSION_MODE=detection bash ~/sensorfusion_ws/shared/stop_all_rpi5.sh 192.168.1.3
 ```
